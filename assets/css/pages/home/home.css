@@ -21,13 +21,18 @@ body {
 
 /* Logo */
 .logo img {
-    width: 450px;
-    margin-bottom: 40px;
+    width: 700px;
+    margin-bottom: 10px;
     max-width: 90%;
 }
 
 /* Botão */
 .btn-start {
+    position: absolute;
+    top: 65%; /* controla altura do botão */
+    left: 50%;
+    transform: translateX(-50%);
+
     background-color: #ffd700;
     color: black;
     border: none;
@@ -37,10 +42,7 @@ body {
     border-radius: 10px;
     cursor: pointer;
 
-    /* sombra */
     box-shadow: 0 5px 0 #b89b00;
-
-    transition: 0.2s;
 }
 
 /* efeito clique */
